@@ -1,3 +1,9 @@
+## [v3.4.2](https://github.com/docling-project/docling-ibm-models/releases/tag/v3.4.2) - 2025-04-23
+
+### Fix
+
+* Table model - optimizing align_table_cells_to_pdf in matching_post_cessor ([#93](https://github.com/docling-project/docling-ibm-models/issues/93)) ([`6b7b036`](https://github.com/docling-project/docling-ibm-models/commit/6b7b0363c680798f8dc85730be714cd8233f6fa8))
+
 ## [v3.4.1](https://github.com/DS4SD/docling-ibm-models/releases/tag/v3.4.1) - 2025-02-28
 
 ### Fix
