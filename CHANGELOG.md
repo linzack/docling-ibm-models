@@ -1,3 +1,9 @@
+## [v3.4.3](https://github.com/docling-project/docling-ibm-models/releases/tag/v3.4.3) - 2025-05-08
+
+### Fix
+
+* Python3.13 dependencies compatibility ([#91](https://github.com/docling-project/docling-ibm-models/issues/91)) ([`3adaf74`](https://github.com/docling-project/docling-ibm-models/commit/3adaf7472dfba48360a9fac3ef314ba947148b77))
+
 ## [v3.4.2](https://github.com/docling-project/docling-ibm-models/releases/tag/v3.4.2) - 2025-04-23
 
 ### Fix
