@@ -1,3 +1,9 @@
+## [v3.4.4](https://github.com/docling-project/docling-ibm-models/releases/tag/v3.4.4) - 2025-06-03
+
+### Fix
+
+* Remove deps constraints ([#111](https://github.com/docling-project/docling-ibm-models/issues/111)) ([`b2c091f`](https://github.com/docling-project/docling-ibm-models/commit/b2c091fde6927f70bc760342f330b6f5c5dfe1f9))
+
 ## [v3.4.3](https://github.com/docling-project/docling-ibm-models/releases/tag/v3.4.3) - 2025-05-08
 
 ### Fix
