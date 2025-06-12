@@ -81,7 +81,8 @@ class CodeFormulaPredictor:
             torch.set_num_threads(self._num_threads)
 
         self._tokenizer = AutoTokenizer.from_pretrained(
-            artifacts_path, use_fast=True, padding_side="left"
+            #artifacts_path, use_fast=True, padding_side="left" # ref: https://github.com/docling-project/docling/issues/1677
+            artifacts_path, use_fast=False, padding_side="left" # workaround Exception: data did not match any variant of untagged enum ModelWrapper at line 255422 column 3
         )
         self._model = SamOPTForCausalLM.from_pretrained(artifacts_path).to(self._device)
         self._model.eval()
